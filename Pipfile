@@ -17,6 +17,8 @@ gunicorn = "*"
 flask-migrate = "*"
 sqlalchemy = "*"
 flask-wtf = "*"
+flask-login = "*"
+is-safe-url = "*"
 
 [dev-packages]
 

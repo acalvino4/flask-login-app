@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>User Dashboard</h1>
+{% if current_user.is_authenticated %}
+  Hello, {{ current_user.username }}!
+{% endif %}
+{% endblock %}
